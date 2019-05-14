@@ -1,0 +1,199 @@
+.panel, .panel-default{
+    border: none;
+    box-shadow: none;
+}
+
+.panel-default .panel-body {
+    text-align: center;
+}
+
+.panel-footer{
+    background-color: transparent;
+    border-top: none;
+    text-align: center;
+}
+
+.gou-icon{
+    display: inline;
+    background: url("../img/gou.png") no-repeat left center;
+    text-indent: 20px;
+}
+
+.cha-icon{
+    display: inline;
+    background: url("../img/cha.png") no-repeat left center;
+    text-indent: 20px;
+}
+
+input{
+    width: 80px;
+    font-size: 10px;
+}
+
+.panel:hover{
+    background-color: #f1f5fa;
+}
+
+.panel, .panel1{
+    position: relative;
+}
+
+.panel .focus{
+    position: absolute;
+    left: 0px;
+    width: 16px;
+    height: 16px;
+    opacity: 0;
+    background: url("../img/focus.png") no-repeat left;
+}
+
+.gou-icon{
+    display: inline-block;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    bottom: 0px;
+    right: 16px;
+    margin: 5px 10px 5px 10px;
+}
+
+.cha-icon{
+    display: inline-block;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    bottom: 0px;
+    right: 0px;
+    margin: 5px 10px 5px 10px;
+}
+
+.gou-icon:hover, .cha-icon:hover{
+    background-color: #8C8C8C;
+}
+
+.panel:hover .focus {
+    opacity: 0.3;
+}
+
+.focus-parent{
+    background-color: #f1f5fa;
+}
+
+.focus-parent .focus, .focus-parent:hover .focus {
+    opacity: 1.0;
+}
+
+.hide-footer{
+    display: none;
+}
+
+.rename-input, .file-name{
+    width: 130px;
+}
+
+.edit-icon{
+    padding-right: 20px;
+}
+
+.upload-class{
+    width: 1000px;
+    height: 450px;
+}
+
+.base-operate, .operate{
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.base-operate p:hover{
+    background-color: #EDEDED;
+}
+
+.new-folder-icon{
+    background: url("../img/create.png") no-repeat left center;
+    text-indent: 20px;
+}
+
+.upload-icon{
+    background: url("../img/upload.png") no-repeat left center;
+    text-indent: 20px;
+}
+
+.ret-icon{
+    background: url("../img/ret.png") no-repeat left center;
+    text-indent: 20px;
+}
+
+.download-icon{
+    background: url("../img/download.png") no-repeat left center;
+    text-indent: 20px;
+}
+
+.delete-icon{
+    background: url("../img/delete.png") no-repeat left center;
+    text-indent: 20px;
+}
+
+.rename-icon{
+    background: url("../img/rename.png") no-repeat left center;
+    text-indent: 20px;
+}
+
+.base-operate span{
+    background-color: white;
+    color: #00adf9;
+    font-weight: 400;
+}
+
+.base-operate span{
+    padding-bottom: 0px;
+}
+
+.base-operate p{
+    display: inline-block;
+}
+
+.base-operate p:hover .back{
+    background-color: #EDEDED;
+}
+
+.panel-footer{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.folder-nodata img{
+    alignment: center;
+}
+
+.folder-nodata p{
+    font-size: 10px;
+    margin-left: 30px;
+}
+
+.private-folder-icon{
+    background: url("../img/private_folder.png") no-repeat left center;
+    text-indent: 20px;
+}
+
+.hierarchy-icon{
+    background-image: url("../img/arrow.png");
+    background-position: right  center;
+    background-repeat: no-repeat;
+    padding-right: 16px;
+}
+
+.hierarchy-column .label:hover{
+    background-color: #EDEDED;
+}
+
+.display-inline-block{
+    display: inline-block;
+}
+
+.display-none{
+    display: none;
+}
